@@ -5,9 +5,10 @@
   "scripts": {
     "cypress:open": "npx cypress open",
     "cypress:run": "npx cypress run",
+    "test:record": "cypress run --record",
     "test": "npm run cypress:open"
   },
-  
+
   "keywords": [],
   "author": "",
   "license": "ISC",
