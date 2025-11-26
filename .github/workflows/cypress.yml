@@ -8,24 +8,23 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+
     steps:
+      # baixa o código do repositório
       - uses: actions/checkout@v4
 
+      # instala o Node
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
+      # instala dependências do seu package.json
       - name: Install dependencies
         run: npm ci
 
-      - name: Start app (if necessário)
-        run: |
-          # Exemplo: npm run start &
-          # espere a aplicação subir antes do Cypress
-          npm run start & npx wait-on http://localhost:3000
-
+      # executa o Cypress e grava no Dashboard
       - name: Run Cypress tests and record
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-        run: npm run test:record
+        run: npx cypress run --record
