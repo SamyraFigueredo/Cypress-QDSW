@@ -71,10 +71,10 @@ Adicione dentro de "scripts":
   }
 }
 ```
-Funções dos scripts:
-  *cypress:open → abre o Test Runner (interface gráfica)
-  *cypress:run → executa testes em modo headless
-  *test → atalho para abrir o Cypress
+> Funções dos scripts:
+  **cypress:open → abre o Test Runner (interface gráfica)**
+  **cypress:run → executa testes em modo headless**
+  **test → atalho para abrir o Cypress**
 
 # 6) Inicializar o Cypress pela Primeira Vez
 
@@ -102,17 +102,19 @@ E quiser testar componentes isolados (botões, modais, cards).
 
 # 8) Estrutura Criada Automaticamente
 
-Ao iniciar o projeto, o Cypress cria automaticamente, funções dos arquivos:
+Ao iniciar o projeto, o Cypress cria automaticamente funções dos arquivos:
 
-  *cypress.config.js → Configurações gerais
-  *fixtures/example.json → Dados simulados
-  *support/e2e.js → Executado antes de cada teste
-  *support/commands.js → Criar comandos customizados
-  *e2e/ → Onde ficam seus testes
+  **cypress.config.js → Configurações gerais**
+  **fixtures/example.json → Dados simulados**
+  **support/e2e.js → Executado antes de cada teste**
+  **support/commands.js → Criar comandos customizados**
+  **e2e/ → Onde ficam seus testes**
 
 ## 9) Criar Seu Primeiro Teste
 
-No Cypress, escolha: ✔ Create new spec
+No Cypress, escolha:
+
+> Create new spec
 
 E defina:
 
@@ -121,4 +123,3 @@ Nome do arquivo: seu_primeiro_teste.cy.js
 Local: cypress/e2e/
 
 Agora você está pronto para começar a escrever seus testes!
-
