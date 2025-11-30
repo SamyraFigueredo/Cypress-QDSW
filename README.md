@@ -19,8 +19,8 @@ Aplicação usada como exemplo: **Swagger Petstore**.
 
 Antes de iniciar o projeto, é necessário ter instalado:
 
-### Node.js (LTS 16, 18 ou 20)
-Download: https://nodejs.org/
+### Node.js (versão LTS 22 ou superior)
+Baixe em: https://nodejs.org/en/download
 
 ### Git (opcional)
 Útil para versionamento e clonagem de repositórios.
