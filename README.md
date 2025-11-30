@@ -105,9 +105,13 @@ E quiser testar componentes isolados (botões, modais, cards).
 Ao iniciar o projeto, o Cypress cria automaticamente funções dos arquivos:
 
   **cypress.config.js → Configurações gerais**
+
   **fixtures/example.json → Dados simulados**
+
   **support/e2e.js → Executado antes de cada teste**
+
   **support/commands.js → Criar comandos customizados**
+
   **e2e/ → Onde ficam seus testes**
 
 ## 9) Criar Seu Primeiro Teste
@@ -118,8 +122,8 @@ No Cypress, escolha:
 
 E defina:
 
-Nome do arquivo: seu_primeiro_teste.cy.js
+> Nome do arquivo: seu_primeiro_teste.cy.js
 
-Local: cypress/e2e/
+> Local: cypress/e2e/
 
 Agora você está pronto para começar a escrever seus testes!
