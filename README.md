@@ -73,7 +73,9 @@ Adicione dentro de "scripts":
 ```
 > Funções dos scripts:
   **cypress:open → abre o Test Runner (interface gráfica)**
+
   **cypress:run → executa testes em modo headless**
+  
   **test → atalho para abrir o Cypress**
 
 # 6) Inicializar o Cypress pela Primeira Vez
