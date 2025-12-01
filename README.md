@@ -7,12 +7,13 @@ Aplicação usada como exemplo: **Swagger Petstore**.
 
 ## Links Importantes
 
-- **Por que usar Cypress:**  
-  https://docs.cypress.io/app/get-started/why-cypress  
+- **Documentação do Cypress**  
+  https://docs.cypress.io/app/get-started/why-cypress 
 
 - **Aplicação para testes (Swagger Petstore):**  
   https://petstore.swagger.io/
-
+- **Slide sobre Cypress: o que é,para que serve,sua importância, como usar, boas práticas, etc.:**
+  https://docs.google.com/presentation/d/1JsNVrq_aYId2fPPdaBne2gzuzyyT4bgN-OefBULOsnI/edit?usp=sharing
 ---
 
 # 1) Pré-requisitos
