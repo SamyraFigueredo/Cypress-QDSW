@@ -23,7 +23,7 @@ Antes de iniciar o projeto, é necessário ter instalado:
 ### Node.js (versão LTS 22 ou superior)
 Baixe em: https://nodejs.org/en/download
 
-### Git (opcional)
+### Git (opcional,mas recomendado)
 Útil para versionamento e clonagem de repositórios.
 
 ### Navegador recomendado
