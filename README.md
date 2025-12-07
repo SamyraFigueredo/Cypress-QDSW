@@ -81,7 +81,7 @@ Adicione dentro de "scripts":
 
 >**test - atalho para abrir o Cypress**
 
->**cypress:run-headed - roda todos os testes mo**
+>**cypress:run-headed - roda todos os testes mostrando no navegador**
 
 # 6) Inicializar o Cypress pela Primeira Vez
 
