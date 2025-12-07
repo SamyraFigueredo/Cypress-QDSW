@@ -68,6 +68,7 @@ Adicione dentro de "scripts":
   "scripts": {
     "cypress:open": "npx cypress open",
     "cypress:run": "npx cypress run",
+    "cy:run-headed": "cypress run --headed",
     "test": "npm run cypress:open"
   }
 }
@@ -79,6 +80,8 @@ Adicione dentro de "scripts":
 >**cypress:run - executa testes em modo headless**
 
 >**test - atalho para abrir o Cypress**
+
+>**cypress:run-headed - roda todos os testes mo**
 
 # 6) Inicializar o Cypress pela Primeira Vez
 
